@@ -104,5 +104,5 @@ if __name__ == '__main__':
     snake = Snake(width, height)
 
     # humanGameLoop(snake)
-    aiGameLoop(snake, 256, os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), 'model_game_hidden_layers_256-record-100.pth'))
+    aiGameLoop(snake, 1024, os.path.join(os.path.dirname(
+        os.path.abspath(__file__)), 'model_game_hidden_layers_1024-record-102.pth'))
